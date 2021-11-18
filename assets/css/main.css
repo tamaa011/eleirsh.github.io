@@ -93,6 +93,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #ffffff;
+    overflow-x: hidden;
 }
 /*start projects*/
 .work-examples {
