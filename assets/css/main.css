@@ -11525,7 +11525,7 @@ label {
   background: #4e97fd;
   height: 50px;
   width: 50px;
-  right: 0px;
+  right: 50px;
   bottom: 77px;
   color: #ffffff;
   font-size: 20px;
@@ -11778,6 +11778,9 @@ label {
   .ctn-preloader .animation-preloader .txt-loading {
     font: bold 3.5em "Poppins", sans-serif;
   }
+        #scrollUp {
+display: none;
+}
 }
 @media screen and (max-width: 500px) {
   .ctn-preloader .animation-preloader .spinner {
@@ -11788,6 +11791,9 @@ label {
   .ctn-preloader .animation-preloader .txt-loading {
     font: bold 2em "Poppins", sans-serif;
   }
+    #scrollUp {
+display: none;
+}
 }
 /*--
     - Overlay
@@ -11903,6 +11909,9 @@ label {
     padding-right: 20px;
     padding-left: 20px;
   }
+        #scrollUp {
+display: none;
+}
 }
 @media (max-width: 767px) {
   .header-top-area {
