@@ -1,3 +1,8 @@
+@media(max-width:767px) {
+    .slick-arrow {
+        display: none!important;
+    }
+}
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
@@ -93,7 +98,6 @@ body {
   color: #212529;
   text-align: left;
   background-color: #ffffff;
-    overflow-x: hidden;
 }
 /*scroll*/
 #myBtn {
@@ -16167,6 +16171,7 @@ p.checkout-coupon input[type=text] {
   transform: translateY(-50%);
   border: 2px solid #d6d6d6;
   cursor: pointer;
+    display: block;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .test-active button.slick-arrow {
@@ -16186,6 +16191,7 @@ p.checkout-coupon input[type=text] {
 .test-active button.slick-next {
   right: -115px;
   left: auto;
+    display: none;  
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .test-active button.slick-next {

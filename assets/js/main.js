@@ -145,7 +145,7 @@ $('.test-active').slick({
 	autoplay:true,
 	speed: 300,
 	prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-long-arrow-left"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="fal fa-long-arrow-right"></i></button>',
+	nextArrow: '<button type="button" id="rem" class="slick-next hidden-xs"><i class="fal fa-long-arrow-right hidden-xs"></i></button>',
 	slidesToShow: 2,
 	slidesToScroll: 1,
 	responsive: [
@@ -803,4 +803,5 @@ $(document).ready(function(){
     $("#desc-tab").addClass("active");
       $("#id-add-in").removeClass("active");
   });
+
 });
