@@ -668,18 +668,15 @@ if (typeof ($.fn.knob) != 'undefined') {
 
 
 	$("#owl-carousel").owlCarousel({
-//		rtl: true,
+        dots: true,
 		loop: true,
 		center: true,
-//		autoplay: true,
-		nav: true,
-		autoplayTimeout: 2000,
-		margin: 20,
+		autoplay: true,
+		autoplayTimeout: 2500,
+		margin: 30,
 		autoHeight: false,
 		pagination: true,
 		responsiveClass: true,
-        prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-long-arrow-left"></i></button>',
-	       nextArrow: '<button type="button" class="slick-next"><i class="fal fa-long-arrow-right"></i></button>',
 		autoplayHoverPause: true,
 		responsive: {
 			0: {
@@ -705,44 +702,41 @@ if (typeof ($.fn.knob) != 'undefined') {
 			},
 		}
 	});
-//	$("#owl-carousels").owlCarousel({
-//		rtl: true,
-//		loop: true,
-//		center: true,
-//		autoplay: true,
-//		nav: true,
-//		autoplayTimeout: 2000,
-//		margin: 10,
-//		autoHeight: 0,
-//		pagination: true,
-//		rewindNav: false,
-//		responsiveClass: true,
-//		// navText: ['<span class="fas fa-chevron-circle-left fa-3x"></span>', '<span class="fas fa-chevron-circle-right fa-3x"></span>'],
-//		autoplayHoverPause: true,
-//		responsive: {
-//			0: {
-//				items: 1,
-//			},
-//			400: {
-//				items: 1.5,
-//			},
-//			600: {
-//				items: 2,
-//			},
-//			800: {
-//				items: 3,
-//			},
-//			1000: {
-//				items: 3,
-//			},
-//			1100: {
-//				items: 4,
-//			},
-//			1200: {
-//				items: 5,
-//			},
-//		}
-//	});
+
+	$("#owl-carousels").owlCarousel({
+		loop: true,
+		center: true,
+		autoplay: true,
+		autoplayTimeout: 2500,
+		margin: 30,
+		autoHeight: false,
+		pagination: true,
+		responsiveClass: true,
+		autoplayHoverPause: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			400: {
+				items: 1.5,
+			},
+			600: {
+				items: 2,
+			},
+			800: {
+				items: 3,
+			},
+			1000: {
+				items: 3,
+			},
+			1100: {
+				items: 4,
+			},
+			1200: {
+				items: 5,
+			},
+		}
+	});
 	
 	$('.test-active').slick({
 	dots: true,
