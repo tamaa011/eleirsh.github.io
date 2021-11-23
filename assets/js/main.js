@@ -1,9 +1,22 @@
-  $('.carousel').carousel({
-   interval: 4000
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+    center: true,
+    loop:true,
+    margin:30,
+    autoplay: true,
+    slideTransition: 'linear',
+      smartSpeed: 2500,
+    autoplayHoverPause: true,
+    items : 1, 
+    itemsDesktop : false,
+    itemsDesktopSmall : false,
+    itemsTablet: false,
+    itemsMobile : false
+ 
   });
-
-
-
+ 
+});
 
 //Get the button
 var mybutton = document.getElementById("myBtn");
@@ -545,19 +558,6 @@ $('.test-03-active').slick({
 		});
 	});
 
-
-	// scrollToTop
-//	$.scrollUp({
-//		scrollName: 'scrollUp', // Element ID
-//		topDistance: '300', // Distance from top before showing element (px)
-//		topSpeed: 300, // Speed back to top (ms)
-//		animation: 'fade', // Fade, slide, none
-//		animationInSpeed: 200, // Animation in speed (ms)
-//		animationOutSpeed: 200, // Animation out speed (ms)
-//		scrollText: '<i class="fas fa-angle-up"></i>', // Text for element
-//		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
-//	});
-
 	// WOW active
 	new WOW().init();
 
@@ -794,55 +794,6 @@ if (typeof ($.fn.knob) != 'undefined') {
 	]
 });
 
-
-//	$('.slider-active').slick({
-//	dots: true,
-//	arrows: true,
-//	infinite: true,
-//	autoplay:true,
-//	speed: 300,
-//	prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-long-arrow-left"></i></button>',
-//	nextArrow: '<button type="button" class="slick-next"><i class="fal fa-long-arrow-right"></i></button>',
-//	slidesToShow: 2,
-//	slidesToScroll: 1,
-//	responsive: [
-//		{
-//			breakpoint: 1500,
-//			settings: {
-//				slidesToShow: 2,
-//				slidesToScroll: 1,
-//			}
-//		},
-//		{
-//			breakpoint: 1200,
-//			settings: {
-//				slidesToShow: 2,
-//				slidesToScroll: 1,
-//			}
-//		},
-//		{
-//			breakpoint: 992,
-//			settings: {
-//				slidesToShow: 2,
-//				slidesToScroll: 1,
-//			}
-//		},
-//		{
-//			breakpoint: 767,
-//			settings: {
-//				slidesToShow: 2,
-//				slidesToScroll: 1
-//			}
-//		},
-//		{
-//			breakpoint: 550,
-//			settings: {
-//				slidesToShow: 1,
-//				slidesToScroll: 1
-//			}
-//		}
-//	]
-//});
 
 
 $(document).ready(function(){
