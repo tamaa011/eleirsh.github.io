@@ -2,6 +2,9 @@
    interval: 4000
   });
 
+
+
+
 //Get the button
 var mybutton = document.getElementById("myBtn");
 

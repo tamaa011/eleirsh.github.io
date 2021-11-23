@@ -23,6 +23,20 @@
     color: #9b9b9b;
     margin-bottom: 15px;
 }
+.carousel-control-prev-icon i, .carousel-control-next-icon i{
+    background-image: none;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #4e97fd;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
@@ -17653,15 +17667,19 @@ ul.cat li a:hover {
     margin-left: 0;
   }
 }
-
+.footer-area {
+    background-color: #fff2dc;
+}
 .footer-title {
   font-size: 20px;
   margin-bottom: 19px;
   text-transform: capitalize;
+    color: #0466c8;
 }
 
 .footer-text p {
   margin-bottom: 19px;
+    color: #646464;
 }
 
 .footer-icon a {
@@ -17672,7 +17690,7 @@ ul.cat li a:hover {
   transition: 0.3s;
   height: 40px;
   width: 40px;
-  color: #9b9b9b;
+  color: #646464;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
@@ -17697,7 +17715,7 @@ ul.cat li a:hover {
   font-size: 15px;
   font-weight: 400;
   transition: 0.3s;
-  color: #9b9b9b;
+  color: #646464;
 }
 .footer-link ul li a:hover {
   color: #4e97fd;
