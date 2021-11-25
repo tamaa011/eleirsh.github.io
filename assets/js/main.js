@@ -1,12 +1,13 @@
 $(document).ready(function() {
  
   $("#owl-demo").owlCarousel({
+    animateIn: 'animate__backInRight',
+    animateOut: 'animate__backOutLeft',
     center: true,
     loop:true,
     margin:30,
     autoplay: true,
-    slideTransition: 'linear',
-      smartSpeed: 2500,
+    smartSpeed: 3500,
     autoplayHoverPause: true,
     items : 1, 
     itemsDesktop : false,
@@ -806,4 +807,4 @@ $(document).ready(function(){
     $("#desc-tab").addClass("active");
       $("#id-add-in").removeClass("active");
   });
-});
+  });

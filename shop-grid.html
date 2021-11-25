@@ -30,7 +30,7 @@
     <body>
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i>  </button>
    <!-- header-start -->
-    <header>
+    <header class="header-nav">
         <div class="header-top-area pl-165 pr-165">
             <div class="container-fluid">
                 <div class="row">
@@ -63,9 +63,9 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-xl-3 col-lg-3">
-    <div class="navbar-brand">
-      <a href="index.html"><img class="" src="assets/img/logo/final%20png-02%20(4).png" alt="El Eirsh" ></a>
-    </div>
+                        <div class="navbar-brand">
+                          <a href="index.html"><img class="" src="assets/img/logo/final%20png-02%20(4).png" alt="El Eirsh" ></a>
+                        </div>
                     </div>
                     <div class="col-xl-9 col-lg-9 d-none d-lg-block">
                         <div class="header-right f-right">
@@ -94,14 +94,11 @@
                         <div class="main-menu">
                             <nav id="mobile-menu">
                                 <ul>
-                                    <li class="active home"><a href="index.html">home</a>
-                                        <!-- <ul class="sub-menu text-left">
-                                            <li><a href="index.html">home 1</a></li>
-                                            <li><a href="index-2.html">home 2</a></li>
-                                            <li><a href="index-3.html">home 3</a></li>
-                                        </ul> -->
+                                    <li class="active home" id="home">
+                                        <a href="index.html">home</a>
                                     </li>
-                                    <li class="product" id="product"><a href="shop-grid.html">product</a>
+                                    <li id="product">
+                                        <a href="shop-grid.html">product</a>
                                         <ul class="sub-menu text-left">
                                             <li><a href="blog-grid-sidebar.html">breast augmentation</a></li>
                                             <li><a href="blog-grid.html">cryo</a></li>
@@ -114,7 +111,7 @@
                                             <li><a href="shop-left-02-column.html">Massage</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog-grid.html">Categories</a>
+                                    <li><a href="blog-grid.html" id="categories">Categories</a>
                                         <ul class="sub-menu text-left">
                                             <li><a href="blog-grid.html">slimming devices</a></li>
                                             <li><a href="blog-grid-sidebar.html">Cosmetic Devices</a></li>
@@ -125,7 +122,7 @@
                                             <li><a href="blog-standard.html">Other Items</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="shop-grid.html">maintenance</a></li>
+                                    <li><a href="shop-grid.html" id="maintenance">maintenance</a></li>
 
                                     <!-- <li><a href="#">pages</a>
                                             <ul class="sub-menu text-left">
@@ -133,7 +130,7 @@
                                                 <li><a href="contact.html">contact</a></li>
                                             </ul>
                                         </li> -->
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="contact.html" id="contact">contact</a></li>
                                 </ul>
                             </nav>
                         </div>

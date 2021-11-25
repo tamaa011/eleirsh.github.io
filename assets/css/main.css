@@ -214,6 +214,11 @@ body {
   background: #4e97fd;
     width: 170px;
 }
+.card-work:hover{
+      transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transition: 0.3s
+}
 .card-work img {
     width: 100%;
     height: 100%;
@@ -12995,7 +13000,7 @@ background: #4e97fd;
   transition: all 0.3s ease 0s;
   visibility: hidden;
   width: 220px;
-  z-index: 9;
+  z-index: 999;
   border-top: 3px solid #4e97fd;
   text-align: left;
   padding: 15px 0;
@@ -14252,7 +14257,12 @@ img.secondary-img {
   opacity: 1;
     
 }
-
+.product-wrapper:hover{
+      transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transition: 0.3s
+    
+}
 .action-btn {
   height: 45px;
   width: 45px;
@@ -14314,9 +14324,14 @@ img.secondary-img {
     box-shadow: 0px 0px 10px 5px rgba(216, 216, 216, 0.4);
     height: 90%;
 }
-
+.product-02-wrapper:hover {
+      transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transition: 0.3s
+}
 .product-02-img a img {
   transition: 0.3s;
+    max-height: 170px;
 }
 
 .product-02-wrapper:hover .product-02-img img {
@@ -14432,7 +14447,11 @@ img.secondary-img {
   bottom: 0;
   opacity: 1;
 }
-
+.product-03-wrapper:hover{
+      transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transition: 0.3s
+}
 .pro-tag {
   top: 20px;
   left: 40px;
@@ -16661,6 +16680,11 @@ p.checkout-coupon input[type=text] {
     overflow: hidden;
     position: relative;
     padding: 10px;
+}
+.blog-wrapper:hover {
+      transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transition: 0.3s
 }
 .blog-text {
   transition: 0.3s;
