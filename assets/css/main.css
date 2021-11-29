@@ -39,7 +39,28 @@
     width: 50px;
     height: 50px;
 }
-
+.mean-container .mean-nav ul li a.mean-expand {
+    height: 21px;
+    
+}
+.mean-container .mean-nav ul li a {
+    color: #333333;
+    font-size: 15px;
+    border-bottom: 1px solid #000;
+    font-weight: bolder;
+}
+.mean-container .mean-nav ul li {
+    background-color: #ffffff;
+}
+.mean-container .mean-nav ul li a:hover {
+    color: #4e97fd;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover {
+    background-color: #ffffff;
+}
+.mean-container .mean-nav ul li li a {
+    font-size: 14px
+}
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
